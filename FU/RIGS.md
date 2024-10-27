@@ -1,9 +1,84 @@
+# Bone mappings for MHFU hunter assets
+
+Note: Some models have special animations, so the info in this file may not be accurate for every model. It just contains the data found in most cases.
+
+* Armor rigs are from [Xenthos research](https://github.com/Xenthalos/Blender-Vertex-Group-Renamer/blob/main/presets/MHFU_armor.json).
+
+## Armor
+
+### Head
+
+|Id|Function|
+|-|-|
+|000|Root|
+|001|Bust|
+|002|Neck|
+|003|Head|
+
+### Body
+
+|Id|Function|
+|-|-|
+|000|Root|
+|001|Hip|
+|002|Waist|
+|003|Bust|
+|004|L_Clavicle|
+|005|L_Shoulder|
+|006|R_Clavicle|
+|007|R_Shoulder|
+|008|Neck|
+|009|Head|
+
+### Arms
+
+|Id|Function|
+|-|-|
+|000|Root|
+|001|Bust|
+|002|L_Clavicle|
+|003|L_Shoulder|
+|004|L_Elbow|
+|005|L_Hand|
+|006|R_Clavicle|
+|007|R_Shoulder|
+|008|R_Elbow|
+|009|R_Hand|
+
+### Waist
+
+|Id|Function|
+|-|-|
+|000|Root|
+|001|Hip|
+|002|Waist|
+|003|L_Leg|
+|004|L_Knee|
+|005|R_Leg|
+|006|R_Knee|
+
+### Legs
+
+|Id|Function|
+|-|-|
+|000|Root|
+|001|?|
+|002|Hip|
+|003|L_Leg|
+|004|L_Knee|
+|005|L_Foot|
+|006|R_Leg|
+|007|R_Knee|
+|008|R_Foot|
+|009|Waist|
+|010|Bust|
+
 ## Weapons
 
 #### Notes
 
 * Shields are upside down
-* Heavy bowguns are in their seathed state
+* Heavy bowguns are in their sheathed state
 * Weapons with special animations may have extra bones that are not detailed here.
 
 ### Great Sword
@@ -12,8 +87,8 @@
 |-|-|
 |000|Root|
 |001|Sword|
-|002|Slides down when seathed|
-|003|Scales when unseathed|
+|002|Slides down when sheathed|
+|003|Scales when unsheathed|
 
 ### Long Sword
 
@@ -24,7 +99,7 @@
 |002|Handle|
 |003|?|
 
-* Longsword seathe appears to be rigged to bone 001 and differentiated only by material in fu. Materials 003 and 004 determine seathe (for iron katana, may be different in other cases).
+* Longsword sheathe appears to be rigged to bone 001 and differentiated only by material in fu. Materials 003 and 004 determine sheathe (for iron katana, may be different in other cases).
 
 ### Sword and Shield
 
@@ -32,7 +107,7 @@
 |-|-|
 |000|Root|
 |001|Sword|
-|002|Tip|
+|002|Stretch when unsheathed|
 |003|Shield root|
 |004|Shield|
 

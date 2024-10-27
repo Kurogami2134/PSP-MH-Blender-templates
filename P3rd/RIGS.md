@@ -1,4 +1,4 @@
-# Bone mappings for mhp3rd hunter assets
+# Bone mappings for MHP3rd hunter assets
 
 Note: Some models have special animations, so the info in this file may not be accurate for every model. It just contains the data found in most cases.
 
@@ -98,8 +98,8 @@ Note: Some models have special animations, so the info in this file may not be a
 |Name|Bone id|Function|
 |-|-|-|
 |WP-00|000|Just the weapon|
-|WP-01|001|Slide in seathe|
-|WP-02|002|Enlarge when unseathed|
+|WP-01|001|Slide in sheathe|
+|WP-02|002|Enlarge when unsheathed|
 
 ### BOW
 
@@ -164,14 +164,14 @@ Note: Some models have special animations, so the info in this file may not be a
 |WP-00|000|Sword|
 |WP-01|001|Handle|
 |WP-02|002|?|
-|WP-00|003|Seathe|
+|WP-00|003|Sheathe|
 
 ### Sword and Shield
 
 |Name|Bone id|Function|
 |-|-|-|
 |WP-00|000|Sword|
-|WP-01|001|Stretch when unseathed|
+|WP-01|001|Stretch when unsheathed|
 |WP-00|002|Shield|
 
 ### Switch Axe
